@@ -1,6 +1,9 @@
 .env
 .DS_Store
-./idea
+
 ./features-gen
+**/.features-gen/
 /node_modules
 ./reports/**
+./idea
+.idea
