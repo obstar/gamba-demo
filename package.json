@@ -10,7 +10,7 @@
     "client": "vite",
     "build": "vite build",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
-    "playwright": "ALLURE_RESULTS_DIR=./tests/.reports/allure-results && npx bddgen && npx playwright test --project='chrome'"
+    "playwright": "ALLURE_RESULTS_DIR=.reports/allure-results && npx bddgen && npx playwright test --project='chrome'"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.27.0",
